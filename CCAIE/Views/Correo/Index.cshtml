@@ -1,0 +1,23 @@
+﻿ @using CCAIE.Models
+@model CorreoDTO
+
+<form asp-action="Enviar" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="asunto" value="Aspirante">
+
+    <label for="nombre">Nombre:</label>
+    <input class="input" asp-for="nombre" type="text" required>
+
+    <label for="telefono">Teléfono:</label>
+    <input class="input" asp-for="telefono" type="text" required>
+    
+    <label for="email">Email:</label>
+    <input class="input" asp-for="email" type="text" required>
+
+    <label for="contenido">Contenido del Correo:</label>
+    <textarea class="input" asp-for="contenido" rows="4" required></textarea>
+
+    <label for="archivoAdjunto">Adjuntar Archivo:</label>
+    <input type="file" name="archivoAdjunto" id="archivoAdjunto">
+
+    <input type="submit" value="Enviar">
+</form>
