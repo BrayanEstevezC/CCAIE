@@ -78,3 +78,44 @@ C:\Users\Equipo 17\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\refint\CCAIE.dll
 C:\Users\Equipo 17\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\CCAIE.pdb
 C:\Users\Equipo 17\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\CCAIE.genruntimeconfig.cache
 C:\Users\Equipo 17\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\ref\CCAIE.dll
+C:\Users\PC\Desktop\CCAIE\CCAIE\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\PC\Desktop\CCAIE\CCAIE\bin\Debug\net6.0\appsettings.json
+C:\Users\PC\Desktop\CCAIE\CCAIE\bin\Debug\net6.0\CCAIE.staticwebassets.runtime.json
+C:\Users\PC\Desktop\CCAIE\CCAIE\bin\Debug\net6.0\CCAIE.exe
+C:\Users\PC\Desktop\CCAIE\CCAIE\bin\Debug\net6.0\CCAIE.deps.json
+C:\Users\PC\Desktop\CCAIE\CCAIE\bin\Debug\net6.0\CCAIE.runtimeconfig.json
+C:\Users\PC\Desktop\CCAIE\CCAIE\bin\Debug\net6.0\CCAIE.dll
+C:\Users\PC\Desktop\CCAIE\CCAIE\bin\Debug\net6.0\CCAIE.pdb
+C:\Users\PC\Desktop\CCAIE\CCAIE\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+C:\Users\PC\Desktop\CCAIE\CCAIE\bin\Debug\net6.0\MailKit.dll
+C:\Users\PC\Desktop\CCAIE\CCAIE\bin\Debug\net6.0\MimeKit.dll
+C:\Users\PC\Desktop\CCAIE\CCAIE\bin\Debug\net6.0\System.Formats.Asn1.dll
+C:\Users\PC\Desktop\CCAIE\CCAIE\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\PC\Desktop\CCAIE\CCAIE\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\PC\Desktop\CCAIE\CCAIE\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\PC\Desktop\CCAIE\CCAIE\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\CCAIE.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\CCAIE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\CCAIE.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\CCAIE.AssemblyInfo.cs
+C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\CCAIE.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\CCAIE.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\CCAIE.RazorAssemblyInfo.cache
+C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\CCAIE.RazorAssemblyInfo.cs
+C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\CCAIE.sourcelink.json
+C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\staticwebassets\msbuild.CCAIE.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\staticwebassets\msbuild.build.CCAIE.props
+C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CCAIE.props
+C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CCAIE.props
+C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\scopedcss\bundle\CCAIE.styles.css
+C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\scopedcss\projectbundle\CCAIE.bundle.scp.css
+C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\CCAIE.csproj.CopyComplete
+C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\CCAIE.dll
+C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\refint\CCAIE.dll
+C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\CCAIE.pdb
+C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\CCAIE.genruntimeconfig.cache
+C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\ref\CCAIE.dll

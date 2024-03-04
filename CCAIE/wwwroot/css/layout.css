@@ -1,0 +1,45 @@
+﻿main {
+    background: red;
+    flex-grow: 1;
+    background: var(--smoke);
+}
+
+.logo {
+    width: 10rem;
+}
+header {
+    position: fixed;
+    width: 100%;
+    transition: 0.9s;
+    z-index: 1;
+}
+li{
+    font-size: 16pt;
+    font-family: "Alata", sans-serif;
+    display:inline;
+    padding:0 .3em;
+    color:aquamarine;
+}
+
+#animation {
+    opacity: 0;
+}
+
+.fade-in-container {
+    animation: fade-in-animation 2s ease-in-out forwards;
+}
+
+@keyframes fade-in-animation {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
