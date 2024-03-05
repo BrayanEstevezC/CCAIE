@@ -49,20 +49,20 @@
       "PackagePath": "staticwebassets\\images\\estudent.png"
     },
     {
-      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\heroImage.jpeg",
-      "PackagePath": "staticwebassets\\images\\heroImage.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\plane-4618053.jpg",
-      "PackagePath": "staticwebassets\\images\\plane-4618053.jpg"
-    },
-    {
-      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\svg\\bars-solid.svg",
-      "PackagePath": "staticwebassets\\images\\svg\\bars-solid.svg"
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\option2.jpg",
+      "PackagePath": "staticwebassets\\images\\option2.jpg"
     },
     {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\teacher.png",
       "PackagePath": "staticwebassets\\images\\teacher.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\wallpaperHero.jpg",
+      "PackagePath": "staticwebassets\\images\\wallpaperHero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\wave.svg",
+      "PackagePath": "staticwebassets\\images\\wave.svg"
     },
     {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\js\\site.js",

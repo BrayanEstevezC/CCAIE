@@ -1,15 +1,37 @@
 ﻿.heroImage {
-    background: url(../images/_e6b28761-3229-4402-a939-45d4e18ef91d.jpeg);
-    height: 90vh;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(../images/wallpaperHero.jpg);
+    height: 100vh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
 }
 
-.student {
-    height: 70vh;
-    width:100vw;
+.undulated-border {
+    position: absolute;
+    bottom: -14%;
+    left: 0%;
+    width: 100%;
+    padding: 0;
+    height: 45%;
+    background-image:url(../images/wave.svg);
 }
+
+.textHero {
+    font-family: "Londrina Outline", sans-serif;
+    font-size: 7rem;
+}
+
+
+
+    .student {
+        height: 70vh;
+        width: 100vw;
+    }
 .student-content {
     background: url(../images/Wallpaper.jpeg);
     background-size: cover;

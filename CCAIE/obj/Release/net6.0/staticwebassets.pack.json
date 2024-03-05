@@ -9,6 +9,14 @@
       "PackagePath": "staticwebassets\\Plantillas\\Index.html"
     },
     {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\css\\content.css",
+      "PackagePath": "staticwebassets\\css\\content.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\css\\layout.css",
+      "PackagePath": "staticwebassets\\css\\layout.css"
+    },
+    {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -17,8 +25,48 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\BlackOrWhite.jpeg",
+      "PackagePath": "staticwebassets\\images\\BlackOrWhite.jpeg"
+    },
+    {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\CCAIE.png",
       "PackagePath": "staticwebassets\\images\\CCAIE.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\Info.jpg",
+      "PackagePath": "staticwebassets\\images\\Info.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\LogoNav.png",
+      "PackagePath": "staticwebassets\\images\\LogoNav.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\Wallpaper.jpeg",
+      "PackagePath": "staticwebassets\\images\\Wallpaper.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\_e6b28761-3229-4402-a939-45d4e18ef91d.jpeg",
+      "PackagePath": "staticwebassets\\images\\_e6b28761-3229-4402-a939-45d4e18ef91d.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\estudent.png",
+      "PackagePath": "staticwebassets\\images\\estudent.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\heroImage.jpeg",
+      "PackagePath": "staticwebassets\\images\\heroImage.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\plane-4618053.jpg",
+      "PackagePath": "staticwebassets\\images\\plane-4618053.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\svg\\bars-solid.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\bars-solid.svg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\teacher.png",
+      "PackagePath": "staticwebassets\\images\\teacher.png"
     },
     {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\js\\site.js",

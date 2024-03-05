@@ -26,7 +26,7 @@ li{
 }
 
 .fade-in-container {
-    animation: fade-in-animation 2s ease-in-out forwards;
+    animation: fade-in-animation 2.5s ease-in-out forwards;
 }
 
 @keyframes fade-in-animation {

@@ -1,0 +1,20 @@
+﻿.heroImage {
+    background: url(../images/_e6b28761-3229-4402-a939-45d4e18ef91d.jpeg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.student {
+    height: 70vh;
+    width:100vw;
+}
+.student-content {
+    background: url(../images/Wallpaper.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#animation {
+    box-shadow: -2px 6px 12px -1px rgba(0,0,0,0.75);
+}
