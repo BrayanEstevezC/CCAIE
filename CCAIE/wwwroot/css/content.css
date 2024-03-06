@@ -1,7 +1,7 @@
 ﻿.heroImage {
     position: relative;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(../images/wallpaperHero.jpg);
-    height: 100vh;
+    height: 99vh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -13,30 +13,29 @@
 
 .undulated-border {
     position: absolute;
-    bottom: -14%;
+    bottom:0;
     left: 0%;
     width: 100%;
     padding: 0;
-    height: 45%;
-    background-image:url(../images/wave.svg);
 }
 
 .textHero {
-    font-family: "Londrina Outline", sans-serif;
-    font-size: 7rem;
+    /*font-family: "Londrina Outline", sans-serif;*/
+    font-family: "Cabin", sans-serif;
+
+    font-size: 50pt;
+    font-weight:bold;
+}
+.heroImage hr {
+    width:25%;
+    background:#fff;
+    height:5px;
+    margin:auto;
 }
 
 
-
-    .student {
-        height: 70vh;
-        width: 100vw;
-    }
-.student-content {
-    background: url(../images/Wallpaper.jpeg);
-    background-size: cover;
-    background-position: center;
-}
-#animation {
-    box-shadow: -2px 6px 12px -1px rgba(0,0,0,0.75);
+.cabin {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
