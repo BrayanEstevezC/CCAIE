@@ -33,6 +33,14 @@
       "PackagePath": "staticwebassets\\images\\CCAIE.png"
     },
     {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\Docent.svg",
+      "PackagePath": "staticwebassets\\images\\Docent.svg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\Fachada.jpg",
+      "PackagePath": "staticwebassets\\images\\Fachada.jpg"
+    },
+    {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\Info.jpg",
       "PackagePath": "staticwebassets\\images\\Info.jpg"
     },
@@ -41,32 +49,72 @@
       "PackagePath": "staticwebassets\\images\\LogoNav.png"
     },
     {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\Recepcion.jpg",
+      "PackagePath": "staticwebassets\\images\\Recepcion.jpg"
+    },
+    {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\Wallpaper.jpeg",
       "PackagePath": "staticwebassets\\images\\Wallpaper.jpeg"
     },
     {
-      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\_e6b28761-3229-4402-a939-45d4e18ef91d.jpeg",
-      "PackagePath": "staticwebassets\\images\\_e6b28761-3229-4402-a939-45d4e18ef91d.jpeg"
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\aulas.jpg",
+      "PackagePath": "staticwebassets\\images\\aulas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\design.svg",
+      "PackagePath": "staticwebassets\\images\\design.svg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\educator.svg",
+      "PackagePath": "staticwebassets\\images\\educator.svg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\estancia.jpg",
+      "PackagePath": "staticwebassets\\images\\estancia.jpg"
     },
     {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\estudent.png",
       "PackagePath": "staticwebassets\\images\\estudent.png"
     },
     {
-      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\heroImage.jpeg",
-      "PackagePath": "staticwebassets\\images\\heroImage.jpeg"
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\fachadaLateral.jpg",
+      "PackagePath": "staticwebassets\\images\\fachadaLateral.jpg"
     },
     {
-      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\plane-4618053.jpg",
-      "PackagePath": "staticwebassets\\images\\plane-4618053.jpg"
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\ofertaE.jpg",
+      "PackagePath": "staticwebassets\\images\\ofertaE.jpg"
     },
     {
-      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\svg\\bars-solid.svg",
-      "PackagePath": "staticwebassets\\images\\svg\\bars-solid.svg"
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\phone-solid.svg",
+      "PackagePath": "staticwebassets\\images\\phone-solid.svg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\plane.jpg",
+      "PackagePath": "staticwebassets\\images\\plane.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\professor.svg",
+      "PackagePath": "staticwebassets\\images\\professor.svg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\programmer.svg",
+      "PackagePath": "staticwebassets\\images\\programmer.svg"
     },
     {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\teacher.png",
       "PackagePath": "staticwebassets\\images\\teacher.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\wallpaperHero.jpg",
+      "PackagePath": "staticwebassets\\images\\wallpaperHero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\wave.svg",
+      "PackagePath": "staticwebassets\\images\\wave.svg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\waveAre.svg",
+      "PackagePath": "staticwebassets\\images\\waveAre.svg"
     },
     {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\js\\site.js",
