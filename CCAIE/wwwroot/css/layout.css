@@ -5,20 +5,23 @@
 
 .logo {
     width: 10rem;
+    margin:auto;
 }
+
 header {
     position: fixed;
-    top:0;
+    top: 0;
     width: 100%;
     transition: 0.9s;
     z-index: 1;
 }
-li{
+
+li {
     font-size: 16pt;
     font-family: "Alata", sans-serif;
-    display:inline;
-    padding:0 .3em;
-    color:aquamarine;
+    display: inline;
+    padding: 0 .3em;
+    color: aquamarine;
 }
 
 #animation {
@@ -27,6 +30,22 @@ li{
 
 .fade-in-container {
     animation: fade-in-animation 2.5s ease-in-out forwards;
+}
+
+.logoFooter {
+    width: 70%;
+    margin: auto;
+}
+
+#footerLink {
+    color: #000;
+    text-decoration:none;
+   
+}
+#footerLink:hover {
+    color: #3c3c3c;
+    text-decoration:underline;
+   
 }
 
 @keyframes fade-in-animation {
@@ -46,7 +65,3 @@ li{
         top: -2%;
     }
 }
-
-
-
-

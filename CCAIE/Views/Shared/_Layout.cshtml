@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - CCAIE</title>
+    <title>@ViewData["Title"] - CCAII</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/layout.css" asp-append-version="true" />
@@ -57,9 +57,45 @@
         @RenderBody()
     </main>
 
-    <footer class="border p-2">
-        <h1>Footer</h1>
+    <footer class="container-fluid p-0 mt-3">
+        <section class="row justify-content-center m">
+
+            <div class="col-12 col-lg-2 p-0 justify-content-center d-flex">
+                <img src="~/images/CCAIE.png" class="logoFooter " alt="LogoFooter" />
+            </div>
+
+            <div class="col-12 col-lg-6  p-0 d-flex flex-column justify-content-end">
+
+                <div class="row text-center w-100 m">
+                    <h6>Calle Hélice N°.304, Carlos Riburosa, Pachuca,HGO. CP: 42082 </h6>
+                </div>
+                
+                <div class="row w-100 m text-center">
+                    <h6><b> CENTRO DE CAPACITACIÓN AÉREA INFORMATICA E INGLES</b></h6>
+                    <h6><b>JORGE ESTEVEZ PEÑA</b></h6>
+                </div>
+
+                <div class="row w-100 m text-center">
+                    <h6><b>&copy 2024 CCAII</b></h6>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-lg-2 p-0 justify-content-center d-flex">
+              
+                <div class="row w-100 text-center ">
+
+                    <h5>Contactanos al:</h5>
+                        <a href="7712291888" id="footerLink"> <h5><img src="~/images/phone-solid.svg" class="phone pe-2" />Tel: 7712291888</h5></a>
+                        <a href="7712291888" id="footerLink"> <h5><img src="~/images/phone-solid.svg" class="phone pe-2" />Tel: 7712291888</h5></a>
+
+                </div>
+
+            </div>
+
+        </section>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

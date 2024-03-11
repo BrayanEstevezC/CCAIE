@@ -12,6 +12,7 @@
     --vh80: 80vh;
     --vh90: 90vh;
     --vh100: 100vh;
+
     --w10:10%; 
     --w20:20%; 
     --w30:30%; 
@@ -26,6 +27,7 @@
 *{box-sizing:border-box; margin:0;}
 
 body{display:flex; flex-direction:column; height:100vh;}
+
 
 .bg-antracita{background:var(--antracita);}
 .bg-smoke{background:var(--smoke);}
