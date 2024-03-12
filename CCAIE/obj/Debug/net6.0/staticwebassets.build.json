@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YNk6xJ5MA7Ed5mPVcG9hhB6fZP/dJESzGH1GO1ff4NE=",
+  "Hash": "YzhinBoh5tKy3feKkndIPNSb741oWFIvkSsHoUfnLlY=",
   "Source": "CCAIE",
   "BasePath": "_content/CCAIE",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\layout.css"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\css\\nosotros.css",
+      "SourceId": "CCAIE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\",
+      "BasePath": "_content/CCAIE",
+      "RelativePath": "css/nosotros.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\nosotros.css"
     },
     {
       "Identity": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\css\\site.css",
@@ -186,6 +205,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\CCAIE.png"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\course.jpg",
+      "SourceId": "CCAIE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\",
+      "BasePath": "_content/CCAIE",
+      "RelativePath": "images/course.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\course.jpg"
     },
     {
       "Identity": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\design.svg",
