@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CCAIE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a57466ce332837378ec9174f1db6eee05c9b5b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CCAIE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CCAIE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
