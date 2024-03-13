@@ -48,6 +48,7 @@ li {
    
 }
 
+.location{width:1rem;  margin-right:.5em; margin-bottom:.3em;}
 @keyframes fade-in-animation {
     0% {
         opacity: 0;

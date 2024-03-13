@@ -1,6 +1,10 @@
 ﻿using CCAIE.Models;
 using CCAIE.Models.Services;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.IO;
+using System.Threading.Tasks;
 
 namespace CCAIE.Controllers
 {
@@ -12,21 +16,22 @@ namespace CCAIE.Controllers
         {
             _hostingEnvironment = hostingEnvironment;
         }
+
         public IActionResult Index()
         {
             return View();
         }
 
         [HttpPost]
-        public async Task <IActionResult> Enviar(CorreoDTO correo, IFormFile archivoAdjunto)
+        public async Task<IActionResult> Enviar(CorreoDTO correo, IFormFile archivoAdjunto)
         {
             var correoService = new Correo();
 
             string filePath = null;
-            if(archivoAdjunto != null && archivoAdjunto.Length > 0) 
+            if (archivoAdjunto != null && archivoAdjunto.Length > 0)
             {
                 var uploadsFolder = Path.Combine(_hostingEnvironment.WebRootPath, "uploads");
-                if(!Directory.Exists(uploadsFolder))
+                if (!Directory.Exists(uploadsFolder))
                     Directory.CreateDirectory(uploadsFolder);
 
                 filePath = Path.Combine(uploadsFolder, archivoAdjunto.FileName);
@@ -47,21 +52,16 @@ namespace CCAIE.Controllers
 
             bool enviado = correoService.enviarCorreo(correo.asunto, contenidoPlantilla, filePath);
 
-            if(!string.IsNullOrEmpty(filePath) && System.IO.File.Exists(filePath))
+            if (!string.IsNullOrEmpty(filePath) && System.IO.File.Exists(filePath))
             {
                 System.IO.File.Delete(filePath);
             }
-            return View("Index");
-        }
 
-        [HttpGet]
-        public IActionResult Get()
-        {
-            var model = new CorreoDTO
-            {
-                asunto = "Asunto Predefinido"
-            };
-            return View(model);
+            // Limpiar el estado del modelo para vaciar los campos
+            ModelState.Clear();
+
+            // Redireccionar a la acción Index
+            return RedirectToAction("Index");
         }
     }
 }

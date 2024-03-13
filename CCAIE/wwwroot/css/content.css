@@ -103,7 +103,7 @@
     width:90%;
 }
 
-.card:hover{transform:scale(1.1);}
+.card:hover{transform:scale(1.1); cursor:pointer;}
 
 .card-body{display:flex; flex-direction:column; align-items:center; justify-content:center;}
 

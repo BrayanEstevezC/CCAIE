@@ -1,15 +1,20 @@
-﻿ @using CCAIE.Models
+﻿@using CCAIE.Models
 @model CorreoDTO
 
-<form asp-action="Enviar" method="post" enctype="multipart/form-data">
-    <input type="hidden" asp-for="asunto" value="Aspirante">
+<form id="correoForm" asp-action="Enviar" method="post" enctype="multipart/form-data">
+
+    <label for="asunto">Asunto:</label>
+    <select asp-for="asunto" class="input" required>
+        <option value="Docente de inglés">Docente de inglés</option>
+        <option value="Docente de matemáticas">Docente de matemáticas</option>
+    </select>
 
     <label for="nombre">Nombre:</label>
     <input class="input" asp-for="nombre" type="text" required>
 
     <label for="telefono">Teléfono:</label>
     <input class="input" asp-for="telefono" type="text" required>
-    
+
     <label for="email">Email:</label>
     <input class="input" asp-for="email" type="text" required>
 
@@ -21,3 +26,5 @@
 
     <input type="submit" value="Enviar">
 </form>
+
+

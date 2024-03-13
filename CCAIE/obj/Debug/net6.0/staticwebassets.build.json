@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UnqpixocQKnQ2Eer4NrwCp4ppZ7sZo/q3maoZHhHIas=",
+  "Hash": "+Eq51nPOOnmGQKswq00R8TY7EF1FZYNCLmbP3RFWrcg=",
   "Source": "CCAIE",
   "BasePath": "_content/CCAIE",
   "Mode": "Default",
@@ -355,6 +355,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Info.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\Location.svg",
+      "SourceId": "CCAIE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\CCAIE\\CCAIE\\wwwroot\\",
+      "BasePath": "_content/CCAIE",
+      "RelativePath": "images/Location.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Location.svg"
     },
     {
       "Identity": "C:\\Users\\Equipo 17\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\LogoNav.png",

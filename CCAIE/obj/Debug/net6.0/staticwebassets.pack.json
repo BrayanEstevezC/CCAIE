@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets\\images\\Info.jpg"
     },
     {
+      "Id": "C:\\Users\\Equipo 17\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\Location.svg",
+      "PackagePath": "staticwebassets\\images\\Location.svg"
+    },
+    {
       "Id": "C:\\Users\\Equipo 17\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\LogoNav.png",
       "PackagePath": "staticwebassets\\images\\LogoNav.png"
     },
