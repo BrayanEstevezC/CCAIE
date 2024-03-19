@@ -1,30 +1,142 @@
 ﻿@using CCAIE.Models
 @model CorreoDTO
 
-<form id="correoForm" asp-action="Enviar" method="post" enctype="multipart/form-data">
-
-    <label for="asunto">Asunto:</label>
-    <select asp-for="asunto" class="input" required>
-        <option value="Docente de inglés">Docente de inglés</option>
-        <option value="Docente de matemáticas">Docente de matemáticas</option>
-    </select>
-
-    <label for="nombre">Nombre:</label>
-    <input class="input" asp-for="nombre" type="text" required>
-
-    <label for="telefono">Teléfono:</label>
-    <input class="input" asp-for="telefono" type="text" required>
-
-    <label for="email">Email:</label>
-    <input class="input" asp-for="email" type="text" required>
-
-    <label for="contenido">Contenido del Correo:</label>
-    <textarea class="input" asp-for="contenido" rows="4" required></textarea>
-
-    <label for="archivoAdjunto">Adjuntar Archivo:</label>
-    <input type="file" name="archivoAdjunto" id="archivoAdjunto">
-
-    <input type="submit" value="Enviar">
-</form>
+<link rel="stylesheet" href="~/css/modal.css" asp-append-version="true" />
 
 
+@{
+    ViewData["Title"] = "Docente";
+}
+@*////////////////////////// HERO *@
+<section class="row m heroDocente p-0">
+
+    <article class="text-center text-light">
+
+        <h1 class="cabin">¡Estamos buscando docentes con tus habilidades!</h1>
+        <hr />
+        <h5 class="cabin mt-2">Forma parte de nuestro equipo de docentes</h5>
+
+    </article>
+
+    <article class=" undulated-border">
+
+        <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 160" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(238, 237, 237, 1)" offset="0%"></stop><stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,32L26.7,45.3C53.3,59,107,85,160,85.3C213.3,85,267,59,320,58.7C373.3,59,427,85,480,80C533.3,75,587,37,640,34.7C693.3,32,747,64,800,77.3C853.3,91,907,85,960,90.7C1013.3,96,1067,112,1120,106.7C1173.3,101,1227,75,1280,69.3C1333.3,64,1387,80,1440,82.7C1493.3,85,1547,75,1600,82.7C1653.3,91,1707,117,1760,109.3C1813.3,101,1867,59,1920,42.7C1973.3,27,2027,37,2080,53.3C2133.3,69,2187,91,2240,90.7C2293.3,91,2347,69,2400,53.3C2453.3,37,2507,27,2560,42.7C2613.3,59,2667,101,2720,114.7C2773.3,128,2827,112,2880,101.3C2933.3,91,2987,85,3040,74.7C3093.3,64,3147,48,3200,37.3C3253.3,27,3307,21,3360,24C3413.3,27,3467,37,3520,37.3C3573.3,37,3627,27,3680,29.3C3733.3,32,3787,48,3813,56L3840,64L3840,160L3813.3,160C3786.7,160,3733,160,3680,160C3626.7,160,3573,160,3520,160C3466.7,160,3413,160,3360,160C3306.7,160,3253,160,3200,160C3146.7,160,3093,160,3040,160C2986.7,160,2933,160,2880,160C2826.7,160,2773,160,2720,160C2666.7,160,2613,160,2560,160C2506.7,160,2453,160,2400,160C2346.7,160,2293,160,2240,160C2186.7,160,2133,160,2080,160C2026.7,160,1973,160,1920,160C1866.7,160,1813,160,1760,160C1706.7,160,1653,160,1600,160C1546.7,160,1493,160,1440,160C1386.7,160,1333,160,1280,160C1226.7,160,1173,160,1120,160C1066.7,160,1013,160,960,160C906.7,160,853,160,800,160C746.7,160,693,160,640,160C586.7,160,533,160,480,160C426.7,160,373,160,320,160C266.7,160,213,160,160,160C106.7,160,53,160,27,160L0,160Z"></path></svg>
+
+    </article>
+
+</section>
+
+@*////////////////////////// Card *@
+<section class="row m  justify-content-around">
+
+    <article class="col-12 col-lg-4 justify-content-center d-flex my-4">
+
+        <div class="card card-docent rounded-4  ">
+            <img class="card-img-top img-Docent mt-4" src="~/images/undraw_education_f8ru.svg" alt="Card image cap">
+            <div class="card-body text-center">
+                <h3 class="card-title"><b>Docente en inglés</b></h3>
+                <h5 class="card-text py-1">Estamos en búsqueda de un docente de inglés altamente calificado y motivado para unirse a nuestro equipo educativo. El candidato ideal será licenciado en lenguas extranjeras o una disciplina relacionada, con experiencia demostrada en la enseñanza del idioma inglés a estudiantes de diversos niveles y habilidades lingüísticas.</h5>
+                <h4 class="card-title"><b>Requisitos </b></h4>
+                <h5 class="card-text py-1">👑 Licenciatura en lenguas extranjeras, lingüística aplicada, enseñanza de inglés como lengua extranjera u una disciplina relacionada.</h5>
+                <h5 class="card-text py-1">👑 Ser estudiante en Licenciatura en lenguas extranjeras, lingüística aplicada, enseñanza de inglés como lengua extranjera (Solo apunto de terminar).</h5>
+                <h5 class="card-text py-1">👑 Excelentes habilidades de comunicación oral y escrita en inglés.</h5>
+                <h5 class="card-text py-1">👑 Capacidad para trabajar de forma colaborativa en un entorno multicultural.</h5>
+                <h5 class="card-text py-1">👑 Edad de 23 a 30 años.</h5>
+            </div>
+        </div>
+
+    </article>
+
+
+    <article class="col-12 col-lg-4 justify-content-center d-flex my-4">
+
+        <div class="card card-docent  rounded-4 ">
+            <img class="card-img-top img-Docent mt-4" src="~/images/undraw_pair_programming_re_or4x.svg" alt="Card image cap">
+            <div class="card-body text-center">
+                <h3 class="card-title"><b>Docente en informática</b></h3>
+                <h5 class="card-text py-1">Estamos buscando un maestro de informática altamente calificado y entusiasta para unirse a nuestro equipo educativo. El candidato seleccionado será responsable de impartir clases de informática, así como de participar en el desarrollo y la implementación de programas educativos relacionados con la tecnología y los sistemas de información.</h5>
+                <h4 class="card-title"><b>Requisitos </b></h4>
+                <h5 class="card-text py-1">👑 Titulación universitaria en ingeniería en sistemas, ingeniería informática, ingeniería de software, o licenciatura en informática u una disciplina relacionada.</h5>
+                <h5 class="card-text py-1">👑 Ser estudiante en ingeniería en sistemas, ingeniería informática, ingeniería de software, o licenciatura en informática u una disciplina relacionadaa (Solo apunto de terminar).</h5>
+                <h5 class="card-text py-1">👑 Experiencia previa en la enseñanza de informática o disciplinas afines.</h5>
+                <h5 class="card-text py-1">👑 Habilidades avanzadas en el uso de herramientas informáticas y software relevante.</h5>
+                <h5 class="card-text py-1">👑 Edad de 23 a 30 años.</h5>
+            </div>
+        </div>
+
+    </article>
+
+    <article class="col-12 col-lg-3 bg-light rounded-4 box-shadow my-4 p-2">
+
+
+        <form id="correoForm" asp-action="Enviar" method="post" enctype="multipart/form-data" class="justify-content-around d-flex flex-column h-100">
+            <h2 class="py-3 text-center"><b>Postúlate</b></h2>
+            <div class="form-group">
+                <label for="asunto">Cargo Solicitado:</label>
+                <select asp-for="asunto" class="form-control" required>
+                    <option value="Docente de inglés">Docente de inglés</option>
+                    <option value="Docente de informatica">Docente de informática</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="nombre">Nombre completo:</label>
+                <input class="form-control" asp-for="nombre" type="text" required>
+                <div id="nombreAlerta" class="alert" role="alert" style="display:none;"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="telefono">Teléfono de contacto:</label>
+                <input class="form-control" asp-for="telefono" type="text" required>
+                <div id="telefonoAlerta" class="alert" role="alert" style="display:none;"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email de contacto:</label>
+                <input class="form-control" asp-for="email" type="email" required>
+                <div id="emailAlerta" class="alert" role="alert" style="display:none;"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="contenido">Resumen Personal:</label>
+                <textarea class="form-control" asp-for="contenido" rows="4" required></textarea>
+                <div id="contenidoAlerta" class="alert" role="alert" style="display:none;"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="archivoAdjunto">Adjunta tu CV (solo PDF):</label>
+                <input type="file" name="archivoAdjunto" id="archivoAdjunto"  accept="application/pdf">
+            </div>
+
+
+            <input type="submit" value="Enviar" onclick="validarFormulario(event)" class="submit py-2">
+        </form>
+
+    </article>
+
+</section>
+
+<br />
+<br />
+
+@{
+    var correoEnviado = TempData["CorreoEnviado"] as bool?;
+}
+
+@if (correoEnviado.HasValue && correoEnviado == true)
+{
+    await Html.RenderPartialAsync("_ModalComponent");
+}
+@if (correoEnviado.HasValue && correoEnviado == false)
+{
+    await Html.RenderPartialAsync("_ModalComponentError");
+
+}
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_DocenteView");
+
+    }
+}

@@ -11,7 +11,6 @@ icon.onclick = iconClick;
 
 window.addEventListener("scroll", function () {
     var header = document.querySelector("header");
-    var nav = document.querySelector("a");
     var animation = getElement("animation");
     const navegation = getElement("nav");
     header.classList.toggle("bg-white", window.scrollY > 0);
@@ -19,13 +18,8 @@ window.addEventListener("scroll", function () {
     navegation.classList.toggle("navbar-dark", window.scrollY < 1);
     icon.classList.toggle("d-block", window.scrollY < 0);
     icon.classList.toggle("d-none", window.scrollY < 1);
-    //icon.classList.add("d-none", window.scrollY < 1);
-
-    //icon.classList.remove("d-block", window.scrollY < 1);
-    //icon.classList.add("d-none", window.scrollY < 1);
-
-    animation.classList.toggle("fade-in-container", window.scrollY > 0);
+    if (animation) {
+        animation.classList.toggle("fade-in-container", window.scrollY > 0);
+    }
 });
-
-
 

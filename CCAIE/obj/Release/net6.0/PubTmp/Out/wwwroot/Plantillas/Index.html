@@ -2,16 +2,27 @@
 <html>
 <head>
     <title>Correo de prueba</title>
+    <link rel="stylesheet" href="Plantilla.css">
 </head>
 <body>
-    <h1>Datos del solicitante:</h1>
-    <ul>
-        <li><strong>Nombre:</strong> {nombre}</li>
-        <li><strong>Teléfono:</strong> {telefono}</li>
-        <li><strong>Dirección:</strong> {email}</li>
-    </ul>
+    <section class="w-100">
+        <img class="logo" src="../images/CCAIE.png" alt="">
+    </section>
+    <section class="golden white w-100 ">
+        <br>
+        <h1>Datos del solicitante</h1>
+    </section>
 
-    <h2>Contenido del Correo:</h2>
-    <p>{contenido_adicional}</p>
+    <article class="golden white w-100 ">
+
+        <h2><strong>Nombre completo: </strong>{nombre}</h2>
+        <h2><strong>Teléfono: </strong>{telefono}</h2>
+        <h2><strong>Correo: </strong>{email}</h2>
+        <h2>Resumen personal:</h2>
+        <p>{contenido_adicional}</p>
+
+
+    </article>
+
 </body>
 </html>

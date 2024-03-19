@@ -1,7 +1,9 @@
 ﻿@{
     ViewData["Title"] = "Inicio";
 }
-
+<a href="https://www.facebook.com/profile.php?id=61557492659995">
+    <i class="fa-brands fa-facebook"></i>
+</a>
 @*////////////////////////// HERO *@
 <section class="row m heroImage p-0">
 
@@ -9,14 +11,13 @@
         
         <h1 class="cabin">¡Bienvenido!</h1>
         <hr />
-        <h5 class="cabin mt-2">Centro de capacitación aérea informática e ingles</h5>
+        <h5 class="cabin mt-2">Centro de capacitación aérea, informática e inglés</h5>
 
         <h5 class="cabin">Jorge Estévez Peña</h5>
 
     </article>
 
     <article class=" undulated-border"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-5.36,110.05 C173.53,175.17 470.37,78.47 503.10,132.73 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #eeeded;"></path></svg></article>
-
 
 </section>
 
@@ -30,10 +31,10 @@
 
         <aside class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center p-4">
            
-            <h2>¿Quienes somos?</h2>
+            <h2>¿Quiénes somos?</h2>
 
             <h4 class="text-body text pt-2 p-2">El Centro Jorge Estévez Peña se enfoca en formar profesionales mediante educación de alta calidad, tecnología avanzada y métodos innovadores para enfrentar los desafíos reales del mundo laboral.</h4>
-            <button class="showMore mt-2">Ver más</button>
+            <a asp-action="History" asp-controller="Home" class="showMore mt-2">Ver más</a>
 
         </aside>
 
@@ -106,8 +107,8 @@
 
     <article class="col-12 col-lg-7 p-0 d-flex flex-column justify-content-center">
 
-        <h1 class="textHero text-center pt-1 pb-2">Visita nuestras instalaciones</h1>
-        <h5 class="text p-4 d-none d-lg-block p-3">En el Centro de Capacitación Aérea, Informática e Inglés Jorge Estévez Peña, nos enorgullece ofrecer instalaciones de calidad para inspirar el aprendizaje y el crecimiento. Desde nuestra moderna fachada principal hasta nuestras aulas espaciosas , cada rincón de nuestra escuela ha sido cuidadosamente diseñado para proporcionar un entorno óptimo para el desarrollo académico y personal de nuestros estudiantes.  </h5>
+        <h1 class="textHero text-center pt-1 pb-2">Conoce nuestras instalaciones</h1>
+        <h5 class="text p-4 d-none d-lg-block p-3">En el Centro de Capacitación Aérea, Informática e Inglés Jorge Estévez Peña, nos enorgullece ofrecer instalaciones de calidad para inspirar el aprendizaje y el crecimiento. Desde nuestra moderna fachada principal hasta nuestras aulas espaciosas, cada rincón de nuestra escuela ha sido cuidadosamente diseñado para proporcionar un entorno óptimo para el desarrollo académico y personal de nuestros estudiantes. </h5>
 
     </article>
 
@@ -123,7 +124,8 @@
 
     <div class="text-center text-light ">
 
-        <h1 class="cabin">Nuestra oferta educativa</h1>
+        <h1 class="cabin">Programas Académicos</h1>
+        <hr />
 
     </div>
 
@@ -184,7 +186,7 @@
             <img class="card-img-top img" src="~/images/educator.svg" alt="Card image cap">
             <div class="card-body">
                 <h4 class="card-title"><b>REGULARIZACIÓN</b></h4>
-                <h5 class="card-text">👑 En matematicas</h5>
+                <h5 class="card-text">👑 En matemáticas</h5>
             </div>
         </div>
 
@@ -202,7 +204,7 @@
     <article class="col-12 col-lg-7 p-2 d-flex  flex-column justify-content-center align-items-center text-center">
         <h1 class="cabin">¡Únete a Nosotros!<br /> Forma Parte de Nuestro Equipo Docente</h1>
         <h5 class="text p-3">En el Centro de Capacitación Aérea, Informática e Inglés Jorge Estévez Peña, valoramos el compromiso con la excelencia académica y la pasión por la enseñanza. Si eres un profesional calificado y apasionado por transmitir conocimientos en áreas como la informática, el inglés, te invitamos a formar parte de nuestro equipo docente. </h5>
-        <a href="#" class="showMore py-2 my-2">Unete a nuestro equipo</a>
+        <a asp-action="Docente" asp-controller="Home" class="showMore py-2 my-2">Unete a nuestro equipo</a>
     </article>
 
 </section>
@@ -217,7 +219,9 @@
 
     <article class="text-center text-light ">
 
-        <h1 class="cabin">Contactanos</h1>
+        <h1 class="cabin">¿Como y donde localizarnos?</h1>
+        <hr />
+
 
     </article>
 
@@ -229,17 +233,18 @@
 
 </section>
 
-<section class="row sectionDocent m my-3 p-0 box-shadow bg-light rounded-4 vh-70">
+<section class="row sectionDocent m my-3 p-0 box-shadow bg-light rounded-4 vh-70" id="Contacto">
 
     <article class="col-12 col-lg-5 border d-flex flex-column justify-content-center align-items-center info">
 
-        <h2><b>CONTACTANOS</b></h2>
+        <h2><b>CONTÁCTANOS</b></h2>
 
         <a href="7712291888"> <h5><img src="~/images/phone-solid.svg" class="phone pe-2" />7712291888</h5></a>
         <a href="7717116305"> <h5><img src="~/images/phone-solid.svg" class="phone pe-2" />7717116305</h5></a>
-
+        <h5><img src="~/images/envelope-regular.svg" alt="Email" class="location" /><a id="footerLink" href="mailto:escuelaaereajep@gmail.com">escuelaaereajep@gmail.com</a></h5>
+        <br />
         <h2><b>NOS UBICAMOS EN</b></h2>
-        <h5>Calle Hélice N°.304, Carlos Riburosa, Pachuca,HGO. CP: 42082 </h5>
+        <h5>Calle Hélice N°.304, Carlos Roviriosa, Pachuca,HGO. CP: 42082 </h5>
 
 
     </article>
@@ -249,4 +254,4 @@
     </article>
 
 </section>
-@* <section class="row sectionDocent m my-3 p-0 box-shadow bg-light rounded-4 vh-20"></section> *@
+

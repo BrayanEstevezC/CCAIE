@@ -57,10 +57,11 @@ namespace CCAIE.Controllers
                 System.IO.File.Delete(filePath);
             }
 
-            // Limpiar el estado del modelo para vaciar los campos
+            TempData["CorreoEnviado"] = true;
+
+
             ModelState.Clear();
 
-            // Redireccionar a la acción Index
             return RedirectToAction("Index");
         }
     }

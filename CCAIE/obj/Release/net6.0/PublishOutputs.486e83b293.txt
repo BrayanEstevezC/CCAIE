@@ -1,6 +1,7 @@
 C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Release\net6.0\PubTmp\Out\CCAIE.exe
 C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
 C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Release\net6.0\PubTmp\Out\wwwroot\css\modal.css
 C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Release\net6.0\PubTmp\Out\CCAIE.dll
 C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Release\net6.0\PubTmp\Out\CCAIE.deps.json
 C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Release\net6.0\PubTmp\Out\CCAIE.runtimeconfig.json

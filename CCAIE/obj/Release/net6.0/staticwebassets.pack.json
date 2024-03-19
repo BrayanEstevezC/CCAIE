@@ -9,12 +9,28 @@
       "PackagePath": "staticwebassets\\Plantillas\\Index.html"
     },
     {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\Plantillas\\Plantilla.css",
+      "PackagePath": "staticwebassets\\Plantillas\\Plantilla.css"
+    },
+    {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\css\\content.css",
       "PackagePath": "staticwebassets\\css\\content.css"
     },
     {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\css\\docente.css",
+      "PackagePath": "staticwebassets\\css\\docente.css"
+    },
+    {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\css\\layout.css",
       "PackagePath": "staticwebassets\\css\\layout.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\css\\modal.css",
+      "PackagePath": "staticwebassets\\css\\modal.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\css\\nosotros.css",
+      "PackagePath": "staticwebassets\\css\\nosotros.css"
     },
     {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\css\\site.css",
@@ -37,12 +53,20 @@
       "PackagePath": "staticwebassets\\images\\Docent.svg"
     },
     {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\Docente.jpg",
+      "PackagePath": "staticwebassets\\images\\Docente.jpg"
+    },
+    {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\Fachada.jpg",
       "PackagePath": "staticwebassets\\images\\Fachada.jpg"
     },
     {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\Info.jpg",
       "PackagePath": "staticwebassets\\images\\Info.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\Location.svg",
+      "PackagePath": "staticwebassets\\images\\Location.svg"
     },
     {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\LogoNav.png",
@@ -53,6 +77,14 @@
       "PackagePath": "staticwebassets\\images\\Recepcion.jpg"
     },
     {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\Valores.svg",
+      "PackagePath": "staticwebassets\\images\\Valores.svg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\Vision.svg",
+      "PackagePath": "staticwebassets\\images\\Vision.svg"
+    },
+    {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\Wallpaper.jpeg",
       "PackagePath": "staticwebassets\\images\\Wallpaper.jpeg"
     },
@@ -61,12 +93,24 @@
       "PackagePath": "staticwebassets\\images\\aulas.jpg"
     },
     {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\course.jpg",
+      "PackagePath": "staticwebassets\\images\\course.jpg"
+    },
+    {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\design.svg",
       "PackagePath": "staticwebassets\\images\\design.svg"
     },
     {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\education.svg",
+      "PackagePath": "staticwebassets\\images\\education.svg"
+    },
+    {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\educator.svg",
       "PackagePath": "staticwebassets\\images\\educator.svg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\envelope-regular.svg",
+      "PackagePath": "staticwebassets\\images\\envelope-regular.svg"
     },
     {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\estancia.jpg",
@@ -79,6 +123,10 @@
     {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\fachadaLateral.jpg",
       "PackagePath": "staticwebassets\\images\\fachadaLateral.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\mision.svg",
+      "PackagePath": "staticwebassets\\images\\mision.svg"
     },
     {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\ofertaE.jpg",
@@ -105,6 +153,18 @@
       "PackagePath": "staticwebassets\\images\\teacher.png"
     },
     {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\undraw_education_f8ru.svg",
+      "PackagePath": "staticwebassets\\images\\undraw_education_f8ru.svg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\undraw_mathematics_-4-otb.svg",
+      "PackagePath": "staticwebassets\\images\\undraw_mathematics_-4-otb.svg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\undraw_pair_programming_re_or4x.svg",
+      "PackagePath": "staticwebassets\\images\\undraw_pair_programming_re_or4x.svg"
+    },
+    {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\wallpaperHero.jpg",
       "PackagePath": "staticwebassets\\images\\wallpaperHero.jpg"
     },
@@ -115,6 +175,18 @@
     {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\waveAre.svg",
       "PackagePath": "staticwebassets\\images\\waveAre.svg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\js\\Docente.js",
+      "PackagePath": "staticwebassets\\js\\Docente.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\js\\ModalCorrect.js",
+      "PackagePath": "staticwebassets\\js\\ModalCorrect.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\js\\ModalError.js",
+      "PackagePath": "staticwebassets\\js\\ModalError.js"
     },
     {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\js\\site.js",

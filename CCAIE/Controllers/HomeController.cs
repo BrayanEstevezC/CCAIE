@@ -26,6 +26,11 @@ namespace CCAIE.Controllers
         {
             return View();
         }
+
+        public IActionResult Docente()
+        {
+            return RedirectToAction("Index", "Correo");
+        }
         
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

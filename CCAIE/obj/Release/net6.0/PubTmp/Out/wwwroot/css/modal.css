@@ -1,0 +1,199 @@
+﻿.modalJS {
+    width: 30%;
+    border-radius: 10px;
+    color: #3c3c3c;
+    text-align: center;
+    background: white;
+    position: fixed;
+    top: 50%;
+    right: 19%;
+    padding: 2%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.5s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+    .active {
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+
+
+.justify-text {
+    text-align: justify;
+    padding: 5% 7%;
+}
+
+.iconContent {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.btnClose {
+    border: 0;
+    width: 30%;
+    border-radius: 0.25em;
+    background-color: #4f48a1;
+    color: #fff;
+    font-size: 1.3em;
+}
+
+    .btnClose:hover {
+        background-color: #6f48a1;
+    }
+
+
+/* CHECK */
+.check-icon {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    animation: jello-horizontal 1.3s linear infinite;
+    animation-play-state: running;
+}
+
+    .check-icon:after {
+        content: '\2713';
+        font-size: 36px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+/* CLOSE */
+.close {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    animation: shake-left-right 0.9s linear infinite;
+    background-color: red;
+    animation-play-state: running;
+}
+
+/* EXCLAMATION */
+.exclamation-icon {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+    animation: shake-left-right 0.9s linear infinite;
+    animation-play-state: running;
+}
+
+
+/* QUESTION */
+.question-icon {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+    animation: shake-left-right 0.9s linear infinite;
+    animation-play-state: running;
+}
+
+@media (max-width: 1000px) {
+    .modalJS {
+        width: 80%;
+        border-radius: 10px;
+        color: white;
+        text-align: center;
+        background: red;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        padding: 2%;
+        transform: translate(-50%, -50%) scale(0);
+        transition: transform 0.5s ease-in-out;
+    }
+}
+    /* ANIMACIONES */
+
+    /*CHECK*/
+    @keyframes jello-horizontal {
+        0% {
+            transform: scale3d(1, 1, 1);
+        }
+
+        30% {
+            transform: scale3d(1.25, .75, 1);
+        }
+
+        40% {
+            transform: scale3d(.75, 1.25, 1);
+        }
+
+        50% {
+            transform: scale3d(1.15, .85, 1);
+        }
+
+        65% {
+            transform: scale3d(.95, 1.05, 1);
+        }
+
+        75% {
+            transform: scale3d(1.05, .95, 1);
+        }
+
+        100% {
+            transform: scale3d(1, 1, 1);
+        }
+    }
+
+    @keyframes shake-left-right {
+
+        0%, 100% {
+            transform: rotate(0deg);
+            transform-origin: 50% 50%;
+        }
+
+        10% {
+            transform: rotate(8deg);
+        }
+
+        20%, 40%, 60% {
+            transform: rotate(-10deg);
+        }
+
+        30%, 50%, 70% {
+            transform: rotate(10deg);
+        }
+
+        80% {
+            transform: rotate(-8deg);
+        }
+
+        90% {
+            transform: rotate(8deg);
+        }
+    }

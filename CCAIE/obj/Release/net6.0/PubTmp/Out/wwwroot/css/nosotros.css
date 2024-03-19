@@ -1,0 +1,72 @@
+﻿.heroNosotros {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(../images/course.jpg);
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+    .heroNosotros hr {
+        width: 25%;
+        background: #fff;
+        height: 5px;
+        margin: auto;
+    }
+
+.logoNosotros{width:45%;}
+
+.history{width:89%; margin:auto; }
+
+.nosnotrosIMG{width:100%; height:100%; border-radius:0px 10px  10px 0px;}
+
+article h3 {
+    text-align: justify;
+    line-height: 1.2em;
+}
+
+.NosotrosLogo{width:32%;}
+
+.MYV{width:94%; margin:auto;}
+
+.justify{text-align:justify;}
+
+.card-img{width:60%; margin:auto;}
+
+.card-img-logo {
+    width: 75%;
+    margin: auto;
+}
+
+.Values {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 1000px) {
+    .logoNosotros {
+        width: 90%;
+    }
+
+    .history {
+        width: 88%;
+        margin: auto;
+    }
+
+    .nosnotrosIMG {
+        border-radius: 0px 0px 10px 10px;
+        height: 60vh;
+    }
+
+    .NosotrosLogo {
+        width: 100%;
+    }
+    .MYV {
+        width: 100%;
+        margin: auto;
+    }
+}

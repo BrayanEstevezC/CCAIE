@@ -19,7 +19,7 @@ namespace CCAIE.Models.Services
             {
                 var email = new MimeMessage();
                 email.From.Add(new MailboxAddress(_nombre, _remitente));
-                email.To.Add(MailboxAddress.Parse("BrayanEstevezcbt3@gmail.com"));
+                email.To.Add(MailboxAddress.Parse("escuelaaereajep@gmail.com"));
                 email.Subject = asunto;
 
                 var builder = new BodyBuilder();

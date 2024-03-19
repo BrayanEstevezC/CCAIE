@@ -23,5 +23,3 @@ window.addEventListener("scroll", function () {
     }
 });
 
-
-
