@@ -31,7 +31,11 @@ namespace CCAIE.Controllers
         {
             return RedirectToAction("Index", "Correo");
         }
-        
+
+        public IActionResult Estudiante()
+        {
+            return RedirectToAction("Index", "Estudiante");
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

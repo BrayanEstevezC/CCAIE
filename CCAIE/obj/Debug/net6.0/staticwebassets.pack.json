@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\CCAIE.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\Plantillas\\CCAIE.png",
+      "PackagePath": "staticwebassets\\Plantillas\\CCAIE.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\Plantillas\\Estudiante.html",
+      "PackagePath": "staticwebassets\\Plantillas\\Estudiante.html"
+    },
+    {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\Plantillas\\Index.html",
       "PackagePath": "staticwebassets\\Plantillas\\Index.html"
     },
@@ -19,6 +27,10 @@
     {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\css\\docente.css",
       "PackagePath": "staticwebassets\\css\\docente.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\css\\estudiante.css",
+      "PackagePath": "staticwebassets\\css\\estudiante.css"
     },
     {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\css\\layout.css",
@@ -93,6 +105,14 @@
       "PackagePath": "staticwebassets\\images\\aulas.jpg"
     },
     {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\class.jpg",
+      "PackagePath": "staticwebassets\\images\\class.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\confident-teacher-explaining-lesson-pupils.jpg",
+      "PackagePath": "staticwebassets\\images\\confident-teacher-explaining-lesson-pupils.jpg"
+    },
+    {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\course.jpg",
       "PackagePath": "staticwebassets\\images\\course.jpg"
     },
@@ -147,6 +167,10 @@
     {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\programmer.svg",
       "PackagePath": "staticwebassets\\images\\programmer.svg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\student.jpg",
+      "PackagePath": "staticwebassets\\images\\student.jpg"
     },
     {
       "Id": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\images\\teacher.png",

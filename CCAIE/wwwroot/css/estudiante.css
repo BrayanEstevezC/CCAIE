@@ -1,0 +1,35 @@
+﻿.heroEstudiante {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(../images/class.jpg);
+    height: 99vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+    .heroEstudiante hr {
+        width: 40%;
+        background: #fff;
+        height: 5px;
+        margin: auto;
+    }
+
+.submit {
+    width: 80%;
+    margin: auto;
+    border: #bc8f4f solid 3px;
+    background: #fff;
+    color: #bc8f4f;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: color .8s ease-in-out, box-shadow .8s ease-in-out;
+}
+
+    .submit:hover {
+        color: #fff;
+        border: solid 3px;
+        box-shadow: inset 60vw 0 0 0 #bc8f4f;
+    }

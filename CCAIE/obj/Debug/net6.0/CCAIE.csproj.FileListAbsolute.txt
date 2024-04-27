@@ -113,9 +113,9 @@ C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\staticwebassets.pack.json
 C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\scopedcss\bundle\CCAIE.styles.css
 C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\scopedcss\projectbundle\CCAIE.bundle.scp.css
-C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\CCAIE.csproj.CopyComplete
 C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\CCAIE.dll
 C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\refint\CCAIE.dll
 C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\CCAIE.pdb
 C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\CCAIE.genruntimeconfig.cache
 C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\ref\CCAIE.dll
+C:\Users\PC\Desktop\CCAIE\CCAIE\obj\Debug\net6.0\CCAIE.csproj.Up2Date

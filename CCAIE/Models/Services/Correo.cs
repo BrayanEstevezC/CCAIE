@@ -9,7 +9,7 @@ namespace CCAIE.Models.Services
     {
         private string _host = "smtp.gmail.com";
         private int _puerto = 587;
-        private string _nombre = "Nuevo Aspirante";
+        private string _nombre = "Nuevo Docente";
         private string _remitente = "candidatoscapacitacionaerea@gmail.com";
         private string _clave = "ymgannghkxdgtvgd";
 
