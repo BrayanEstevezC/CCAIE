@@ -1,117 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\CCAIE\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{5D4C9C78-25E7-4113-B513-1E6253842C90}|CCAIE\\CCAIE.csproj|c:\\users\\pc\\desktop\\ccaie\\ccaie\\models\\services\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D4C9C78-25E7-4113-B513-1E6253842C90}|CCAIE\\CCAIE.csproj|solutionrelative:ccaie\\models\\services\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D4C9C78-25E7-4113-B513-1E6253842C90}|CCAIE\\CCAIE.csproj|C:\\Users\\PC\\Desktop\\CCAIE\\ccaie\\models\\services\\correo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D4C9C78-25E7-4113-B513-1E6253842C90}|CCAIE\\CCAIE.csproj|solutionrelative:ccaie\\models\\services\\correo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D4C9C78-25E7-4113-B513-1E6253842C90}|CCAIE\\CCAIE.csproj|C:\\Users\\PC\\Desktop\\CCAIE\\ccaie\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5D4C9C78-25E7-4113-B513-1E6253842C90}|CCAIE\\CCAIE.csproj|solutionrelative:ccaie\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D4C9C78-25E7-4113-B513-1E6253842C90}|CCAIE\\CCAIE.csproj|C:\\Users\\PC\\Desktop\\CCAIE\\ccaie\\wwwroot\\css\\estudiante.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{5D4C9C78-25E7-4113-B513-1E6253842C90}|CCAIE\\CCAIE.csproj|solutionrelative:ccaie\\wwwroot\\css\\estudiante.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D4C9C78-25E7-4113-B513-1E6253842C90}|CCAIE\\CCAIE.csproj|C:\\Users\\PC\\Desktop\\CCAIE\\ccaie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D4C9C78-25E7-4113-B513-1E6253842C90}|CCAIE\\CCAIE.csproj|solutionrelative:ccaie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D4C9C78-25E7-4113-B513-1E6253842C90}|CCAIE\\CCAIE.csproj|C:\\Users\\PC\\Desktop\\CCAIE\\ccaie\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5D4C9C78-25E7-4113-B513-1E6253842C90}|CCAIE\\CCAIE.csproj|solutionrelative:ccaie\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Estudiante.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\Models\\Services\\Estudiante.cs",
-              "RelativeDocumentMoniker": "CCAIE\\Models\\Services\\Estudiante.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\Models\\Services\\Estudiante.cs",
-              "RelativeToolTip": "CCAIE\\Models\\Services\\Estudiante.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T07:01:54.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Correo.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\Models\\Services\\Correo.cs",
-              "RelativeDocumentMoniker": "CCAIE\\Models\\Services\\Correo.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\Models\\Services\\Correo.cs",
-              "RelativeToolTip": "CCAIE\\Models\\Services\\Correo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T07:02:02.835Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\Program.cs",
-              "RelativeDocumentMoniker": "CCAIE\\Program.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\Program.cs",
-              "RelativeToolTip": "CCAIE\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T06:16:44.418Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "estudiante.css",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\css\\estudiante.css",
-              "RelativeDocumentMoniker": "CCAIE\\wwwroot\\css\\estudiante.css",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\wwwroot\\css\\estudiante.css",
-              "RelativeToolTip": "CCAIE\\wwwroot\\css\\estudiante.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-03-27T06:15:02.865Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "CCAIE\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "CCAIE\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAADyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T06:10:50.323Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "CCAIE\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\CCAIE\\CCAIE\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "CCAIE\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T06:09:12.455Z"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
